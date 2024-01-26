@@ -1,4 +1,4 @@
-const socket = io("ws://localhost:4000");
+const socket = io("https://socket-io-chatapp-8jvl.onrender.com");
 
 const msgInput = document.querySelector("#message");
 const nameInput = document.querySelector("#name");
